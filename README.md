@@ -160,9 +160,8 @@ secure-file-sharing/
 │   │   ├── utils/         # Frontend utilities
 │   │   └── styles.css     # Tailwind CSS
 │   └── public/
-├── setup-complete.sh      # Complete setup script
-├── start-dev.sh          # Development startup
-└── start-prod.sh         # Production startup
+├── README.md
+└── setup-complete.sh      # Complete setup script
 ```
 
 ### Running in Development
@@ -294,8 +293,6 @@ REACT_APP_API_URL=https://api.your-domain.com
 REACT_APP_DEBUG=false
 ```
 
-## 📞 Support
-
 ### Getting Help
 
 1. **Check this README** for setup and usage instructions
@@ -309,11 +306,3 @@ REACT_APP_DEBUG=false
 - ✅ macOS with Node.js 16+ and MongoDB
 - ✅ Windows 10+ with Node.js 16+ and MongoDB
 - ✅ Docker containers with official Node.js images
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
----
-
-**🎉 Congratulations!** You now have a fully functional secure file sharing application with PKI-based authentication. The system is production-ready with comprehensive security features and proper error handling.
