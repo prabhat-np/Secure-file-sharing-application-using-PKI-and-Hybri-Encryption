@@ -27,10 +27,9 @@ git clone <repository-url>
 cd secure-file-sharing
 
 # Make setup script executable
-chmod +x setup-complete.sh
-
-# Run the complete setup
-./setup-complete.sh
+cd Secure-file-sharing-application-using-PKI-and-Hybri-Encryption
+sudo docker-compose build
+sudo docker-compose up -d 
 ```
 
 The setup script will:
@@ -63,10 +62,7 @@ REACT_APP_DEBUG=true
 
 ```bash
 # Development mode (auto-reload)
-./start-dev.sh
-
-# Production mode
-./start-prod.sh
+sudo docker-compose build
 ```
 
 ### 4. Access the Application
@@ -162,19 +158,6 @@ secure-file-sharing/
 │   └── public/
 ├── README.md
 └── setup-complete.sh      # Complete setup script
-```
-
-### Running in Development
-
-```bash
-# Start backend only
-cd backend && npm start
-
-# Start frontend only
-cd frontend && npm start
-
-# Start both with hot reload
-./start-dev.sh
 ```
 
 ### Available Scripts
